@@ -46,6 +46,7 @@ namespace APIMorningClass.Controllers
             dt.Load(sdr);
             List<UserInfo> employeeList = dt.DataTableToList<UserInfo>();
 
+            string a = "Hello";
             return employeeList;
         }
 
